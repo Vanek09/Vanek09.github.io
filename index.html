@@ -1,59 +1,90 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>slider in Javascript</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
-  <section class="home">
-     <div class="slider">
-        <div class="slide active" style="background-image: url('images/1.jpg')">
-            <div class="container">
-                <div class="caption">
-                    <!--<h1>1. Winter Collection 2020</h1>
-                    <p>Lorem ipsum dummy text goes here.</p>
-                    <a href="">Shop Now</a>-->
-                </div>
-            </div>
-        </div>
-        <div class="slide" style="background-image: url('images/2.jpg')">
-            <div class="container">
-                <div class="caption">
-                    <!--<h1>2. Winter Collection 2020</h1>
-                    <p>Lorem ipsum dummy text goes here.</p>
-                    <a href="">Shop Now</a>-->
-                </div>
-            </div>
-        </div>
-        <div class="slide" style="background-image: url('images/3.jpg')">
-            <div class="container">
-                <div class="caption">
-                    <!--<h1>3. Winter Collection 2020</h1>
-                    <p>Lorem ipsum dummy text goes here.</p>
-                    <a href="">Shop Now</a>-->
-                </div>
-            </div>
-        </div>
-				<div class="slide" style="background-image: url('images/4.jpg')">
-            <div class="container">
-                <div class="caption">
-                    <!--<h1>2. Winter Collection 2020</h1>
-                    <p>Lorem ipsum dummy text goes here.</p>
-                    <a href="">Shop Now</a>-->
-                </div>
-            </div>
-        </div>
-     </div>
+	<div class="navbar">
+		<div class="conteiner">
+		<div class="logo"><a href=""><img src="images/logo.png" alt=""></a></div>
+		<div class="info">
+			<img src="images/location.png" alt="">
+			<p>Кирилловка, ул. Коса Федотова, 118</p>
+			<img src="images/phone.png" alt="">
+			<p>+38 (067) 786-17-07</p>
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="">Главная</a></li>
+				<li><a href="">О нас</a></li>
+				<li><a href="">Номера</a></li>
+				<li><a href="">Галерея</a></li>
+				<li><a href="">Контакты</a></li>
+			</ul>
+		</div>
+		</div>
+	</div>
+	<section class="home">
+		<div class="slider">
+			<div class="slide active" style=" background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(132, 132, 132, 0) 50.04%, rgba(255, 255, 255, 0) 100%), url('images/1.jpg')">
+				<div class="conteiner">
+				<div class="blockinfo" style=" background:background: rgba(0, 0, 0, 0.15); backdrop-filter: blur(70px); height: auto; width: auto;">
+					<h1>ДОБРО ПОЖАЛОВАТЬ НА <br>БАЗУ ОТДЫХА “АВТОМАТИКА”</h1>
+					<p>База отдыха «Автоматика» в Кирилловке — это <br>
+						идеальный вариант для семейного отдыха. <br>
+						Мы предлагаем отдых на берегу Азовского моря <br>
+						в самом сердце Федотовой косы.</p>
+					<a class="button1" href="">ПОДРОБНЕЕ О НАС</a>
+				</div>
+				</div>
+			</div>
+			<div class="slide" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(132, 132, 132, 0) 50.04%, rgba(255, 255, 255, 0) 100%), url('images/2.jpg')">
+				<div class="conteiner">
+				<div class="blockinfo" style=" background:background: rgba(0, 0, 0, 0.15); backdrop-filter: blur(70px); height: auto; width: auto;">
+					<h1>УЮТНЫЕ НОМЕРА</h1>
+					<p>Мы предлагаем номера на любой вкус: <br>
+						от ЭКОНОМ до ЛЮКС класса </p>
+					<a class="button1" href="">ПОДРОБНЕЕ О НОМЕРАХ</a>
+				</div>
+				</div>
+			</div>
+			<div class="slide" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(132, 132, 132, 0) 50.04%, rgba(255, 255, 255, 0) 100%), url('images/3.jpg')">
+				<div class="conteiner">
+				<div class="blockinfo" style=" background:background: rgba(0, 0, 0, 0.15); backdrop-filter: blur(70px); height: auto; width: auto;">
+					<h1>ВРЕМЯ ОТДЫХАТЬ
+						С КОМФОРТОМ</h1>
+					<p>Всё, что вам нужно — это солнечные очки.<br>Ну, а об остальном позаботимся МЫ!</p>
+					<a class="button1" href="">ПОДРОБНЕЕ О ДОСУГЕ</a>
+				</div>
+				</div>
+			</div>
+			<div class="slide" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(132, 132, 132, 0) 50.04%, rgba(255, 255, 255, 0) 100%), url('images/4.jpg')">
+				<div class="conteiner">
+				<div class="blockinfo" style=" background:background: rgba(0, 0, 0, 0.15); backdrop-filter: blur(70px); height: auto; width: auto;">
+					<h1>ВАШЕ ЛУЧШЕЕ РЕШЕНИЕ</h1>
+					<p>Хватит мечтать - пора отдыхать! <br>
+						Отдых - наша работа</p>
+					<a class="button1" href="">БРОНИРОВАТЬ</a>
+				</div>
+				</div>
+			</div>
+		</div>
 
-    <div class="indicator">
-    </div>
 
-  </section>
+		<div class="indicator">
+		</div>
 
 
- <script src="script.js"></script>
+	</section>
+
+
+	<script src="script.js"></script>
 
 </body>
+
 </html>
