@@ -1795,9 +1795,14 @@ body {
     position: absolute;
     top: 30%;
     opacity: 0;
+    background:background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(70px);
+    height: auto;
+    width: auto;
     animation: blockinfo .5s ease forwards;
     animation-delay: 1.2s;
     z-index: 5;
+
   }
 
   @keyframes blockinfo {
@@ -1871,20 +1876,20 @@ body {
   .home .indicator {
     position: absolute;
     left: 50%;
-    bottom: 100px;
-    z-index: 2;
+    bottom: 30px;
+    z-index: 1;
     transform: translateX(-50%);
   }
 
   .home .indicator div {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0);
     border: 5px solid #fff;
     border-radius: 50%;
-    margin: 0 3px;
+    margin: 0 2px;
     cursor: pointer;
     transition: all .5s ease;
   }
