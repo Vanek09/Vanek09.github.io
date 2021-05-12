@@ -1751,7 +1751,7 @@ body {
   }
 
   .home {
-    height: 100vh;
+    height: var(--screen-height);
     overflow: hidden;
     position: relative;
   }
