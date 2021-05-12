@@ -2,9 +2,9 @@
 <html>
 
 <head>
-	<title>slider in Javascript</title>
+	<title>Отдых на море</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -18,15 +18,36 @@
 			<img src="images/phone.png" alt="">
 			<p>+38 (067) 786-17-07</p>
 		</div>
-		<div class="nav">
-			<ul>
-				<li><a href="">Главная</a></li>
-				<li><a href="">О нас</a></li>
-				<li><a href="">Номера</a></li>
-				<li><a href="">Галерея</a></li>
-				<li><a href="">Контакты</a></li>
+	<nav id="nav" class="nav" role="navigation">
+			<ul class="nav__menu" id="menu" tabindex="-1" aria-label="main navigation">
+				<li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">Номера</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">Галерея</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
 			</ul>
-		</div>
+
+			<!-- MENU TOGGLE BUTTON -->
+			
+			<a href="#nav" class="nav__toggle" role="button" aria-expanded="false" aria-controls="menu" hidden>
+        <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 50 50">
+          <title>Toggle Menu</title>
+          <g>
+            <line class="menuicon__bar" x1="13" y1="16.5" x2="37" y2="16.5"/>
+            <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+            <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+            <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5"/>
+            <circle class="menuicon__circle" r="23" cx="25" cy="25" />
+          </g>
+        </svg>
+      </a>
+
+      <!-- ANIMATED BACKGROUND ELEMENT -->
+      <div class="splash"></div>
+
+
+		</nav>
+		<script  src="./script1.js"></script>
 		</div>
 	</div>
 	<section class="home">
@@ -39,7 +60,7 @@
 						идеальный вариант для семейного отдыха. <br>
 						Мы предлагаем отдых на берегу Азовского моря <br>
 						в самом сердце Федотовой косы.</p>
-					<a class="button1" href="">ПОДРОБНЕЕ О НАС</a>
+					<a class="buttonslide" href="">ПОДРОБНЕЕ О НАС</a>
 				</div>
 				</div>
 			</div>
@@ -49,7 +70,7 @@
 					<h1>УЮТНЫЕ НОМЕРА</h1>
 					<p>Мы предлагаем номера на любой вкус: <br>
 						от ЭКОНОМ до ЛЮКС класса </p>
-					<a class="button1" href="">ПОДРОБНЕЕ О НОМЕРАХ</a>
+					<a class="buttonslide" href="">ПОДРОБНЕЕ О НОМЕРАХ</a>
 				</div>
 				</div>
 			</div>
@@ -59,7 +80,7 @@
 					<h1>ВРЕМЯ ОТДЫХАТЬ
 						С КОМФОРТОМ</h1>
 					<p>Всё, что вам нужно — это солнечные очки.<br>Ну, а об остальном позаботимся МЫ!</p>
-					<a class="button1" href="">ПОДРОБНЕЕ О ДОСУГЕ</a>
+					<a class="buttonslide" href="">ПОДРОБНЕЕ О ДОСУГЕ</a>
 				</div>
 				</div>
 			</div>
@@ -69,7 +90,7 @@
 					<h1>ВАШЕ ЛУЧШЕЕ РЕШЕНИЕ</h1>
 					<p>Хватит мечтать - пора отдыхать! <br>
 						Отдых - наша работа</p>
-					<a class="button1" href="">БРОНИРОВАТЬ</a>
+					<a class="buttonslide" href="">БРОНИРОВАТЬ</a>
 				</div>
 				</div>
 			</div>
@@ -78,7 +99,6 @@
 
 		<div class="indicator">
 		</div>
-
 
 	</section>
 
