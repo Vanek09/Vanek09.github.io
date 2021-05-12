@@ -1,42 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-.home {
-  height: 100vh;
-  overflow: hidden;
-  position: relative;
-}
-
-.home .slide {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  z-index: 1;
-  display: none;
-  padding: 0 15px;
-  animation: slide 2s ease;
-}
-
-.home .slide.active {
-  display: flex;
-}
-
-@keyframes slide {
-  0% {
-    transform: scale(1.1);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
-
-
 @media (min-width: 1200px) {
 body {
   margin: 0;
@@ -142,6 +106,40 @@ body {
 
 .nav__link:hover:before {
   width: 100%;
+}
+
+.home {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.home .slide {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  display: none;
+  padding: 0 15px;
+  animation: slide 2s ease;
+}
+
+.home .slide.active {
+  display: flex;
+}
+
+@keyframes slide {
+  0% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .home .blockinfo {
@@ -356,6 +354,40 @@ body {
 
   .nav__link:hover:before {
     width: 100%;
+  }
+
+  .home {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .home .slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    display: none;
+    padding: 0 15px;
+    animation: slide 2s ease;
+  }
+
+  .home .slide.active {
+    display: flex;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
   }
 
   .home .blockinfo {
@@ -669,6 +701,40 @@ body {
     transform: translateY(0);
   }
 
+  .home {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .home .slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    display: none;
+    padding: 0 15px;
+    animation: slide 2s ease;
+  }
+
+  .home .slide.active {
+    display: flex;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
   .home .blockinfo {
     position: absolute;
     top: 27%;
@@ -979,6 +1045,40 @@ body {
     display: block;
     opacity: 1;
     transform: translateY(0);
+  }
+
+  .home {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .home .slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    display: none;
+    padding: 0 15px;
+    animation: slide 2s ease;
+  }
+
+  .home .slide.active {
+    display: flex;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
   }
 
   .home .blockinfo {
@@ -1295,6 +1395,40 @@ body {
     transform: translateY(0);
   }
 
+  .home {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .home .slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    display: none;
+    padding: 0 15px;
+    animation: slide 2s ease;
+  }
+
+  .home .slide.active {
+    display: flex;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
   .home .blockinfo {
     position: absolute;
     top: 22%;
@@ -1606,6 +1740,40 @@ body {
     display: block;
     opacity: 1;
     transform: translateY(0);
+  }
+
+  .home {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .home .slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    display: none;
+    padding: 0 15px;
+    animation: slide 2s ease;
+  }
+
+  .home .slide.active {
+    display: flex;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
   }
 
   .home .blockinfo {
