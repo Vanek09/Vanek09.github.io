@@ -1540,17 +1540,23 @@ body {
 
 @media (min-width : 320px) and (max-width : 479px) {
 
+  :root {
+   --app-height: 100%;
+}
+
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    height: var(--app-height);
+}
+
   body {
     margin: 0;
     overflow-x: hidden;
-  }
-
-  body {
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-}
-  html {
-  height: -webkit-fill-available;
   }
 
   * {
@@ -1752,6 +1758,7 @@ body {
 
   .home {
     height: 100vh;
+    height: var(--app-height);
     overflow: hidden;
     position: relative;
   }

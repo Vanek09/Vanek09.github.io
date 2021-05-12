@@ -4,8 +4,6 @@
  const indicator=document.querySelector(".indicator");
  let index=0;
 
-
-
    // create circle indicators
     function circleIndicator(){
         for(let i=0; i< slides.length; i++){
@@ -77,3 +75,10 @@
   }
 
   let timer=setInterval(autoPlay,10000);
+
+  const appHeight = () => {
+      const doc = document.documentElement
+      doc.style.setProperty('--app-height', `${window.innerHeight}px`)
+  }
+  window.addEventListener('resize', appHeight)
+  appHeight()
