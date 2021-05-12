@@ -146,6 +146,10 @@ body {
   position: absolute;
   top: 25%;
   opacity: 0;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(70px);
+  height: auto;
+  width: auto;
   animation: blockinfo .5s ease forwards;
   animation-delay: 1.2s;
   z-index: 5;
@@ -394,6 +398,10 @@ body {
     position: absolute;
     top: 25%;
     opacity: 0;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(70px);
+    height: auto;
+    width: auto;
     animation: blockinfo .5s ease forwards;
     animation-delay: 1.2s;
     z-index: 5;
@@ -739,6 +747,10 @@ body {
     position: absolute;
     top: 27%;
     opacity: 0;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(70px);
+    height: auto;
+    width: auto;
     animation: blockinfo .5s ease forwards;
     animation-delay: 1.2s;
     z-index: 5;
@@ -1085,6 +1097,10 @@ body {
     position: absolute;
     top: 22%;
     opacity: 0;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(70px);
+    height: auto;
+    width: auto;
     animation: blockinfo .5s ease forwards;
     animation-delay: 1.2s;
     z-index: 5;
@@ -1433,6 +1449,10 @@ body {
     position: absolute;
     top: 22%;
     opacity: 0;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(70px);
+    height: auto;
+    width: auto;
     animation: blockinfo .5s ease forwards;
     animation-delay: 1.2s;
     z-index: 5;
@@ -1795,7 +1815,7 @@ body {
     position: absolute;
     top: 30%;
     opacity: 0;
-    background:background: rgba(0, 0, 0, 0.15);
+    background: rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(70px);
     height: auto;
     width: auto;
