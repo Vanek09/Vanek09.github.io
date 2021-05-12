@@ -1543,6 +1543,8 @@ body {
   body {
     margin: 0;
     overflow-x: hidden;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
   }
 
   * {
@@ -1742,12 +1744,9 @@ body {
     transform: translateY(0);
   }
 
-  :root {
-    --vh: 1vh;
-}
 
   .home {
-    height: calc(var(--vh, 1vh) * 100);
+    height: -webkit-fill-available;
     overflow: hidden;
     position: relative;
   }
