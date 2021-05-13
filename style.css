@@ -1560,7 +1560,19 @@ body {
 
 @media (min-width : 320px) and (max-width : 479px) {
 
+  :root {
+   --app-height: 100%;
+}
 
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    height: var(--app-height);
+}
 
   body {
     margin: 0;
@@ -1805,11 +1817,12 @@ body {
     opacity: 0;
     background: rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(70px);
+    -webkit-backdrop-filter: blur(70px);
     height: auto;
     width: auto;
     animation: blockinfo .5s ease forwards;
     animation-delay: 1.2s;
-    z-index: 5;
+    z-index: 2;
 
   }
 
