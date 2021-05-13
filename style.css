@@ -144,15 +144,18 @@ body {
 
 .home .blockinfo {
   position: absolute;
-  top: 25%;
+  top: 50%;
+  margin-top: -190px;
   opacity: 0;
   background: rgba(0, 0, 0, 0.15);
   backdrop-filter: blur(70px);
+  -webkit-backdrop-filter: blur(70px);
   height: auto;
   width: auto;
   animation: blockinfo .5s ease forwards;
   animation-delay: 1.2s;
-  z-index: 5;
+  z-index: 2;
+
 }
 
 @keyframes blockinfo {
@@ -396,15 +399,18 @@ body {
 
   .home .blockinfo {
     position: absolute;
-    top: 25%;
+    top: 50%;
+    margin-top: -190px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(70px);
+    -webkit-backdrop-filter: blur(70px);
     height: auto;
     width: auto;
     animation: blockinfo .5s ease forwards;
     animation-delay: 1.2s;
-    z-index: 5;
+    z-index: 2;
+
   }
 
   @keyframes blockinfo {
@@ -506,6 +512,20 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+  :root {
+   --app-height: 100%;
+}
+
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    height: var(--app-height);
+}
 
   body {
     margin: 0;
@@ -611,7 +631,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 36px;
+    font-size: 24px;
     text-decoration: none;
     padding: 1rem;
   }
@@ -710,7 +730,8 @@ body {
   }
 
   .home {
-    height: 100vh;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     overflow: hidden;
     position: relative;
   }
@@ -745,15 +766,18 @@ body {
 
   .home .blockinfo {
     position: absolute;
-    top: 27%;
+    top: 50%;
+    margin-top: -210px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(70px);
+    -webkit-backdrop-filter: blur(70px);
     height: auto;
     width: auto;
     animation: blockinfo .5s ease forwards;
     animation-delay: 1.2s;
-    z-index: 5;
+    z-index: 2;
+
   }
 
   @keyframes blockinfo {
@@ -772,10 +796,10 @@ body {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 36px;
     color: #ffffff;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-left: 70px;
     margin-right: 70px;
   }
@@ -783,9 +807,9 @@ body {
   .blockinfo p {
     font-family: Montserrat;
     font-style: normal;
-    font-size: 20px;
+    font-size: 24px;
     color: #ffffff;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-top: 0px;
     margin-left: 70px;
     margin-right: 70px;
@@ -796,14 +820,14 @@ body {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     color: #ffffff;
     text-align: center;
     padding-top: 12px;
     text-decoration: none;
     display: block;
     height: 60px;
-    width: 250px;
+    width: 300px;
     color: #ffffff;
     border: 5px solid #ffffff;
     transition: all 1s ease;
@@ -827,7 +851,7 @@ body {
   .home .indicator {
     position: absolute;
     left: 50%;
-    bottom: 30px;
+    bottom: 15px;
     z-index: 1;
     transform: translateX(-50%);
   }
@@ -838,16 +862,13 @@ body {
     height: 50px;
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0);
-    border: 7px solid #fff;
+    border: 5px solid #fff;
     border-radius: 50%;
     margin: 0 3px;
     cursor: pointer;
     transition: all .5s ease;
   }
 
-  .home .indicator div:hover {
-    background-color: #ffffff;
-  }
 
   .home .indicator div.active {
     background-color: #ffffff;
@@ -856,6 +877,20 @@ body {
 }
 
 @media (min-width : 640px) and (max-width : 767px) {
+
+  :root {
+   --app-height: 100%;
+}
+
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    height: var(--app-height);
+}
 
   body {
     margin: 0;
@@ -961,7 +996,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 36px;
+    font-size: 24px;
     text-decoration: none;
     padding: 1rem;
   }
@@ -1060,7 +1095,8 @@ body {
   }
 
   .home {
-    height: 100vh;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     overflow: hidden;
     position: relative;
   }
@@ -1095,15 +1131,18 @@ body {
 
   .home .blockinfo {
     position: absolute;
-    top: 22%;
+    top: 50%;
+    margin-top: -220px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(70px);
+    -webkit-backdrop-filter: blur(70px);
     height: auto;
     width: auto;
     animation: blockinfo .5s ease forwards;
     animation-delay: 1.2s;
-    z-index: 5;
+    z-index: 2;
+
   }
 
   @keyframes blockinfo {
@@ -1122,10 +1161,10 @@ body {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 36px;
     color: #ffffff;
-    margin-top: 30px;
-    margin-bottom: 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     margin-left: 50px;
     margin-right: 50px;
   }
@@ -1133,9 +1172,9 @@ body {
   .blockinfo p {
     font-family: Montserrat;
     font-style: normal;
-    font-size: 18px;
+    font-size: 24px;
     color: #ffffff;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-top: 0px;
     margin-left: 50px;
     margin-right: 50px;
@@ -1146,18 +1185,18 @@ body {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
     color: #ffffff;
     text-align: center;
     padding-top: 12px;
     text-decoration: none;
     display: block;
     height: 60px;
-    width: 250px;
+    width: 300px;
     color: #ffffff;
     border: 5px solid #ffffff;
     transition: all 1s ease;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-top: 0;
     margin-left: 50px;
     margin-right: 50px;
@@ -1177,7 +1216,7 @@ body {
   .home .indicator {
     position: absolute;
     left: 50%;
-    bottom: 30px;
+    bottom: 15px;
     z-index: 1;
     transform: translateX(-50%);
   }
@@ -1188,16 +1227,13 @@ body {
     height: 50px;
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0);
-    border: 7px solid #fff;
+    border: 5px solid #fff;
     border-radius: 50%;
     margin: 0 3px;
     cursor: pointer;
     transition: all .5s ease;
   }
 
-  .home .indicator div:hover {
-    background-color: #ffffff;
-  }
 
   .home .indicator div.active {
     background-color: #ffffff;
@@ -1208,6 +1244,20 @@ body {
 }
 
 @media (min-width : 480px) and (max-width : 639px) {
+
+  :root {
+   --app-height: 100%;
+}
+
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    height: var(--app-height);
+}
 
   body {
     margin: 0;
@@ -1313,7 +1363,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 36px;
+    font-size: 24px;
     text-decoration: none;
     padding: 1rem;
   }
@@ -1412,7 +1462,8 @@ body {
   }
 
   .home {
-    height: 100vh;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     overflow: hidden;
     position: relative;
   }
@@ -1447,15 +1498,18 @@ body {
 
   .home .blockinfo {
     position: absolute;
-    top: 22%;
+    top: 50%;
+    margin-top: -220px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(70px);
+    -webkit-backdrop-filter: blur(70px);
     height: auto;
     width: auto;
     animation: blockinfo .5s ease forwards;
     animation-delay: 1.2s;
-    z-index: 5;
+    z-index: 2;
+
   }
 
   @keyframes blockinfo {
@@ -1474,10 +1528,10 @@ body {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
     color: #ffffff;
-    margin-top: 30px;
-    margin-bottom: 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     margin-left: 50px;
     margin-right: 50px;
   }
@@ -1485,9 +1539,9 @@ body {
   .blockinfo p {
     font-family: Montserrat;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
     color: #ffffff;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-top: 0px;
     margin-left: 50px;
     margin-right: 50px;
@@ -1498,7 +1552,7 @@ body {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     color: #ffffff;
     text-align: center;
     padding-top: 12px;
@@ -1509,7 +1563,7 @@ body {
     color: #ffffff;
     border: 5px solid #ffffff;
     transition: all 1s ease;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-top: 0;
     margin-left: 50px;
     margin-right: 50px;
@@ -1529,7 +1583,7 @@ body {
   .home .indicator {
     position: absolute;
     left: 50%;
-    bottom: 30px;
+    bottom: 15px;
     z-index: 1;
     transform: translateX(-50%);
   }
@@ -1540,16 +1594,13 @@ body {
     height: 50px;
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0);
-    border: 7px solid #fff;
+    border: 5px solid #fff;
     border-radius: 50%;
     margin: 0 3px;
     cursor: pointer;
     transition: all .5s ease;
   }
 
-  .home .indicator div:hover {
-    background-color: #ffffff;
-  }
 
   .home .indicator div.active {
     background-color: #ffffff;
@@ -1814,7 +1865,7 @@ body {
   .home .blockinfo {
     position: absolute;
     top: 50%;
-    margin-top: -180px;
+    margin-top: -193px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(70px);
